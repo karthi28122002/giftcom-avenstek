@@ -1,0 +1,283 @@
+
+header{
+    height: 80px;
+}
+.sec_head{
+    height: 4rem;
+    width: 100%;
+    background: var(--blue);
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+.sec_content h1{
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+.sec_main{
+    margin-top: 5rem; 
+}
+.sec_content .breadcrumb{
+    padding-top: 10px;
+}
+.sec_content .breadcrumb .breadcrumb-item.active{
+color: var(--orange);
+} 
+.sec_content .breadcrumb .breadcrumb-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.sec_main .address-box-container .addresses{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.sec_main .address-box-container .address-box1 h5{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Poppins-SemiBold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    padding-bottom: 10px;
+}
+.sec_main .address-box-container .address-box1 .ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 4px;
+}
+.sec_main .address-box-container .address-box1 .ul li{
+    font-size: 14px;
+    color: #615a5a;
+}
+.sec_main .address-box-container .address-box1 .ul li span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 10px;
+    color: black;
+}
+.sec_main .address-box-container .form-check-space{
+    width: 100%;
+}
+.sec_main .address-box-container .address-box2 h5{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Poppins-SemiBold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    padding-bottom: 10px;
+}
+.sec_main .address-box-container .address-box2 .ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-top: 4px;
+}
+.sec_main .address-box-container .address-box2 .ul li{
+    font-size: 14px;
+    color: #615a5a;
+}
+.sec_main .address-box-container .address-box2 .ul li span{
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 10px;
+    color: black;
+}
+.sec_main .address-box-container .new-address{
+    padding-top: 30px;
+    padding-left: 0px;
+}
+.sec_main .address-box-container .new-address .collapse-btn{
+    background: none;
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    padding: unset;
+    letter-spacing: 0.3px;
+}
+/* Default style for the form-check-label */
+.card-body { 
+    border: 1.5px solid transparent; 
+    padding: 20px;
+    border-radius: 8px;
+}
+.card:hover{
+    border-color: var(--orange);
+    border-radius: 4px;
+}
+.card-body.selected{
+    border-color: var(--orange);
+    border-radius: 4px;
+}
+.address-checkinput{
+    visibility: hidden;
+    position: absolute;
+}
+.form-check{
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 0px;
+    margin-bottom: .125rem;
+    max-width: 100%;
+    padding-right: 10px;
+}
+.address-width {
+    max-width: 50%;
+}
+.form-check .form-check-space{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.sec_main .address-box-container .new-address .buttons .save_btn{
+    background: var(--orange);
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+}
+.sec_main .address-box-container .new-address .buttons .cancel_btn{
+    background: none;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(135, 135, 135);
+    color: var(--blue);
+}
+.sec_main .address-box-container .new-address .form-control{
+    font-size: 14px;
+}
+.sec_main .address-box-container .new-address .form-select{
+    font-size: 14px;
+    color: grey;
+}
+.sec_main .address-box-container .new-address .form-label {
+    margin-bottom: .5rem;
+    font-size: 14px;
+    color: grey;
+}
+.sec_main .cart-box{
+    height: auto;
+    width: 100%;
+    box-shadow: 0px 0px 1px 0px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.sec_main td {
+    padding: 10px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+.sec_main .cart-box table tr td img{
+    max-width: 85px;    
+}
+.sec_main .cart-box table tr td h5 a{
+    font-size: 14px;
+    color: #ff8900;
+    font-weight: 600;
+    text-decoration: none;
+}
+.sec_main .cart-box table tr td span{
+    font-size: 14px;
+}
+.sec_main .cart-box table .total-Price{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff8900;
+}
+.sec_main .payment-options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+} 
+.sec_main .payment-methods .pay-button{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.sec_main .payment-methods .pay-button button{
+    background-color: #ff9e00;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+}
+.sec_main .payment-methods .form-check label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sec_main .address-box-container .addtional_info{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sec_main .address-box-container .addtional_info h4{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.sec_main .address-box-container .addtional_info textarea{
+    border: 1px solid #e2e9e1; 
+    border-radius: 4px;
+    height: 45px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 10px 10px 10px 20px;
+    font-size: 13px;
+    color: #161c27;
+    width: 100%;
+    min-height: 200px;
+    resize: none;
+}
+.sec_main .payment-methods .form-check label{
+    display: flex;
+}
+.sec_main .payment-methods .form-check label  span img{
+    height: 27px;
+    padding-right: 10px;
+    width: 100%;
+}
+.sec_main .payment-methods .upi-radio-btn{
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+.sec_main .payment-methods .upi-radio-btn1{
+    padding-left: 4rem;
+}
+.form-check-input:checked {
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+.form-check-input:focus{
+    box-shadow: 0 0 0 .25rem rgb(253 222 179 / 93%);
+}
+
+
+/* mediaquery starts */
+@media only screen and (max-width: 600px) {
+    .sec_main .address-box-container .addresses {
+        display: block;
+        /* gap: 20px; */
+    }
+    .address-width {
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .sec_main .address-box-container .addresses {
+        /* max-width: 75%; */
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+}
+/* mediaquery ends */

@@ -1,0 +1,19 @@
+.faq-sec {
+
+}
+
+.faq-sec button {
+    color: var(--blue) !important;
+}
+
+.faq-sec button:hover {
+    color: var(--orange) !important;
+}
+
+.faq-sec .head {
+    margin: 1.5rem 0px;
+}
+
+.faq-sec .link-primary:focus {
+    color: var(--orange) !important;
+}

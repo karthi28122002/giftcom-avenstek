@@ -1,0 +1,69 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px - 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* Small devices (portrait tablets, 600px - 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    
+}
+
+/* Extra small devices (phones, up to 599px) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* Extra small devices (phones, up to 576px) */
+@media only screen and (max-width: 576px) {
+   
+}
+
+/* Extra small devices (phones, up to 500px) */
+@media only screen and (max-width: 500px) {
+   
+}
+
+/* Other Android Devices (phones, up to 450px) */
+@media only screen and (max-width: 450px) {
+   
+}
+
+/* iPhone 13 Pro Max */
+@media only screen and (max-width: 428px) {
+    
+}
+
+/* iPhone XR Max */
+@media only screen and (max-width: 414px) {
+    
+}
+
+/* Pixel 5 */
+@media only screen and (max-width: 393px) {
+   
+}
+
+/* iPhone 12 Pro */
+@media only screen and (max-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 */
+@media only screen and (max-width: 375px) {
+
+}
+
+/* Samsung Galaxy */
+@media only screen and (max-width: 360px) {
+
+}

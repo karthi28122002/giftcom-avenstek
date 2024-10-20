@@ -1,0 +1,64 @@
+.register-sec h2 {
+  color: var(--blue);
+}
+
+.register-sec .btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--orange);
+    border-color: var(--orange) !important;
+}
+
+.register-sec .btn {
+   border-radius: 5px !important;
+}
+
+.register-sec .already {
+   margin-top: 1rem !important;
+}
+
+.register-sec .form-control {
+    border-radius: 10px !important;
+}
+
+.register-sec .terms-label , .already {
+    font-size: 0.9rem;
+}
+
+.register-sec .terms , .already-link {
+    color: var(--orange) !important;
+}
+
+.already-link:hover {
+    color: var(--orange) !important;
+}
+
+.register-sec .terms {
+
+}
+
+.register-sec .form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.register-sec .sign-up {
+    background: var(--blue) !important;
+}
+
+.register-sec .sign-up:hover {
+    background: var(--orange) !important;
+    border: 1px solid var(--orange) !important;
+}
+
+.register-sec .vertical-lining {
+    column-gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.register-sec .vertical-lining hr {
+    margin: 0px !important;
+}

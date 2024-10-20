@@ -1,0 +1,17 @@
+.service-description {
+    font-size: 13px;
+}
+
+.services-sec svg {
+    color: var(--blue) !important;
+}
+
+.services-sec a {
+    color: var(--orange) !important;
+    transition: .3s ease;
+}
+
+.services-sec a:hover {
+    color: var(--blue) !important;
+    transition: .3s ease;
+}

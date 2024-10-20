@@ -1,0 +1,1246 @@
+.breadcrum-main{
+    background-color: #f6f6f6;
+    margin-bottom: 30px;
+    padding: 18px 0;
+    line-height: 18px;
+    height: 54px;
+}
+
+.breadcrums-row{
+    align-items: center !important;
+}
+
+.breadcrumb-item a{
+    text-decoration: none ;
+    color: black;
+}
+
+.breadcrumb-item .active{ 
+    
+}
+
+
+
+
+/* Product details style */
+
+.image-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Product-details{
+    
+}
+
+.select-next{
+    margin-right: 20px;
+}
+
+.product-title{
+    font-family: Poppins-Regular;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.product-rating{
+
+}
+
+.rating-list{
+
+list-style: none;
+
+display: flex;
+
+color: #FCA311;
+
+padding-left: 0;
+}
+
+.rating-list-item{padding: 0 2px;}
+
+.rating-list-item i{
+}
+
+.empty-rate{
+    color: #FCA311;
+}
+
+.rating-value{
+    color: grey;
+}
+
+.product-price-view {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.product-price-view del{
+    color: #696969;
+}
+
+.product-price-view ins{
+    text-decoration: none;
+    color: #FCA311;
+}
+
+.product-price-view span{
+    font-size: 12px;
+    line-height: 1.2;
+    border-radius: 4px;
+    background-color: #FCA311;
+    color: white;
+    padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    display: inline-block;
+}
+
+.product-caricature{
+    margin-bottom: 20px;
+}
+
+.caricature-sold{
+    color: #FCA311;
+}
+
+.caricature-sold i{
+    color: red;
+} 
+
+.product-upload{
+
+}
+
+.product-upload span{
+    font-size: 14px;
+    font-family: Poppins-Light !important;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-upload button{
+    border: none;
+    background-color: #FCA311;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product-engrave{
+
+}
+
+.product-engrave h4{
+    display: inline-block;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.engrave-text{
+
+margin-bottom: 25px;
+}
+
+.engrave-text-list{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.engrave-text-list-item{
+    padding-right: 12px;
+}
+
+.engrave-text-select{
+    text-decoration: none;
+    color:#696969;
+    border: 1px solid #696969;
+    border-radius: 40px;
+    padding: 6px 16px;
+}
+
+.engrave-text .active{
+    color: white;
+    background: black;
+    border: none;
+}
+
+
+.input-text-engrave{
+
+display: block;
+
+margin-bottom: 10px;
+
+font-size: 14px;
+
+font-weight: 400;
+}
+
+
+.input-engrave{
+
+width: 100%;
+
+padding: 9px 10px;
+
+margin-bottom: 30px;
+}
+
+.product-quantity{
+
+border: 1px solid;
+
+display: inline-block;
+
+padding: 7px 17px;
+
+border-radius: 30px;
+
+margin-bottom: 20px;
+}
+.quantity{
+    
+border: none;
+    
+width: 37px;
+    
+padding: 0 14px;
+    
+background: none;
+}
+.decrement{
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 3px;
+}
+
+.increment{
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    top: 3px;
+}
+
+.cart{
+    
+margin-left: 36px;
+}
+
+.cart-buy, .cart-add{
+    border: none;
+    border-radius: 30px;
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.quant-shop{
+    display: flex;
+    margin-left: 31px;
+}
+
+
+/* Product details style */
+
+/* Review Style */
+
+.reviews-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#review-card{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.write-review button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color:#f39c12;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-sec-1, .card-sec-2{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-img-top{
+
+}
+
+.card{
+
+height: -2%;
+}
+
+.card-body{
+    /* padding: 5px 13px 0; */
+}
+
+.card-review{
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 0;
+}
+
+.card-name{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.card-rate{
+    margin-bottom: 5px;
+}
+
+.card-name span{
+    padding-left: 22px;
+    color: green;
+}
+
+.card-date{
+    color: #767676;
+    font-size: 11px;  
+    height: 20px;
+}
+
+.card-type{
+    font-size: 11px;
+    color: #a3a3a3;
+}
+
+.card-type p{
+    font-size: 13px;
+    color: black;
+}
+.review-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    /* justify-content: space-between; */
+}
+
+.card-main {
+    border: 1px solid #a3a3a38e;
+    border-radius: 10px;
+    height: fit-content;
+    width: 23%;
+    gap: 20px;
+    /* margin-right: 24px; */
+    overflow: hidden;
+}
+
+.card-body{
+    padding: 16px;
+}
+
+.review-card-3{
+    position: relative;
+    top: -138px;
+}
+
+.review-card-4{}
+
+.review-card-5{
+    position: relative;
+    top: -275px;
+}
+
+.review-card-6{
+    position: relative;
+    top: -35px;
+}
+
+
+/* Review Style */
+
+/* Description Style */
+
+.description-section{
+    background-color: #a3a3a326;
+    margin-top: 30px;
+}
+
+.product-description {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color:#878787;
+    padding: 30px 0;
+  }
+  
+  .description-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+.descript-head{
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    border: 1px solid #878787;
+    padding: 5px 19px;
+    border-radius: 30px;
+  }
+  
+  .arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    color:#878787;
+  }
+  
+
+  .descript-size{
+    text-align: left;
+    font-size: 14px;
+  }
+
+.descript-main {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+.descript-list {
+    text-align: left;
+    font-size: 14px;
+    padding-left: 15px;
+    list-style: disc;
+  }
+  
+.descript-list-items{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+  }
+  
+  .descript-list-items strong {
+    font-weight: bold;
+  }
+  
+/* Description Style */
+
+/* Suggested Products Style*/
+
+.suggestion-container, .recent-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-main-suggestion{
+    border: 1px solid  #a3a3a38e;
+    border-radius: 10px;
+    height: fit-content;
+    width: 18%;
+}
+
+.suggestion-head, .recent-head{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.suggest-image{   
+height: 450px;
+}
+
+.product-title {
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: 700;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.description-header button {
+    display: none;
+}
+
+.price {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.price del {
+    color: #888;
+    font-size: 14px;
+    margin-right: 5px;
+}
+/* Suggested Products Style*/
+
+/* Recently Viewed Style */
+
+.product-recent{
+
+}
+
+/* Recently Viewed Style */
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 500px){
+
+    #product-main, #review-main{
+        padding: 16px;
+    }
+
+    .description-section{
+        padding: 20px;
+    }
+
+    .product-suggestion{
+        padding: 16px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    #productGallery {
+        width: 100%;
+    }
+
+    .slider-container {
+        height: 60%;
+    }
+
+    .rating-list{
+        padding: 0 !important;
+    }
+
+    .engrave-text {
+        margin-bottom: 0px;
+    }
+
+    .engrave-text-list {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+    }
+
+    .engrave-text-list-item {
+        padding-right: 12px;
+        padding-bottom: 16px;
+    }
+
+    .slider-item-show4 {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .product-title {
+        text-align: center;
+    }
+
+    .product-price-view del,
+    .product-price-view ins {
+        font-size: 1rem;
+    }
+
+    .product-price-view {
+        margin-bottom:5px;
+    }
+
+    .product-caricature {
+        margin-bottom: 5px;
+    }
+
+    .product-upload button{
+        margin-bottom: 10px;
+    }
+    
+    .product-engrave {
+        margin-top: 10px;
+    }
+
+    .quant-shop {
+        margin: 0px 30px !important; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quantity {
+        text-align: center;
+    }
+
+    .cart-buy, .cart-add {
+        font-size: 0.9rem;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    .product-quantity {
+        display:flex;
+        margin: 10px 0;
+        height: 10%;
+    }
+    
+    .cart button {
+        margin-right: 10px;
+    }
+    
+    .cart {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+
+    }
+
+    /* review media query */
+
+    .review-header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .card-name{
+        text-align: left !important;
+    } 
+
+    .card-review{
+        text-align: justify;
+        margin-bottom: 10px;
+    } 
+
+    .rating-list {
+        display: flex;
+        list-style-type: none;
+        padding: 0 0 10px 0 !important;
+        margin: 0;
+    }
+
+    .rating-list-item {
+        margin-right: 5px;
+    }
+
+    .rating-value {
+        margin-left: 10px;
+    }
+
+    .write-review {
+        display: flex;
+        align-items: center;
+    }
+
+    .write-review button {
+        margin-right: 10px;
+    }
+
+    .card-sec-1, .card-sec-2  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-main {
+        width: 90% !important;
+        margin: 0 16px;
+        display: block;
+    }
+    
+    .card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+
+    .review-card-3, .review-card-4, .review-card-5, .review-card-6  {
+        position: relative;
+        top: 0;
+    }
+
+    .card-date {
+        text-align: left;
+        display: block;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+
+    .card-type {
+        font-size: 12px;
+        display: flex;
+    }
+
+    .card-type p {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    /* review over */
+
+     /* slider */
+
+     .slider-item-reveal {
+        --swiffy-slider-item-reveal: 0rem !important; 
+    }
+
+    .product-title {
+        margin-bottom: 65px;
+    }
+
+    .price{
+        text-align: left;
+    }
+
+    .slider-item-show3 {
+        --swiffy-slider-items: 1;
+      }
+    
+      .suggestion-container {
+        padding: 0 10px;
+      }
+    
+      .card {
+        max-width: 100%;
+      }
+    
+      .card-body {
+        text-align: center;
+      }
+    /* slider */
+
+}
+
+
+@media only screen and (max-width: 580px){
+    #product-main, #review-main, #review-card-container{
+        padding: 16px;
+    }
+
+    .description-section{
+        padding: 20px;
+    }
+
+    .product-suggestion{
+        padding: 16px;
+    }
+
+    .image-container {
+        width: 100%;
+    }
+
+    #productGallery {
+        width: 100%;
+    }
+
+    
+    .engrave-text {
+        margin-bottom: 0px;
+    }
+
+    .engrave-text-list {
+        list-style: none;
+        display: inline-block !important;
+        margin: 0;
+    }
+
+    .engrave-text-list-item {
+        padding-right: 12px;
+        margin-bottom: 25px;
+    }
+
+    .quant-shop {
+        display: flex;
+        margin: 0 55px;
+        flex-direction: none;
+        align-items: center;
+    }
+
+    .quantity {
+        text-align: center;
+    }
+
+    .cart-buy, .cart-add {
+        font-size: 0.9rem;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    .product-quantity {
+        display:flex;
+        margin: 10px 0;
+        height: 10%;
+    }
+    
+    .cart button {
+        margin-right: 10px;
+    }
+    
+    .cart {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+
+    }
+
+    .review-header {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .card-name{
+        text-align: left !important;
+    } 
+
+    .card-review{
+        text-align: justify;
+        margin-bottom: 10px;
+    } 
+
+    .rating-list {
+        display: flex;
+        list-style-type: none;
+        padding: 0 0 10px 0 !important;
+        margin: 0;
+    }
+
+    .rating-list-item {
+        margin-right: 5px;
+    }
+
+    .rating-value {
+        margin-left: 10px;
+    }
+
+    .write-review {
+        display: flex;
+        align-items: center;
+    }
+
+    .write-review button {
+        margin-right: 10px;
+    }
+
+    .review-card-3, .review-card-4, .review-card-5, .review-card-6  {
+        position: relative;
+        top: 0;
+    }
+
+    .card-date {
+        text-align: left;
+        display: block;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+
+    .card-type {
+        font-size: 12px;
+        display: flex;
+    }
+
+    .card-type p {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .card-sec-1, .card-sec-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+    
+      .card-main {
+        width: 90% !important;
+        margin: 0 16px;
+        display: block;
+    }
+    
+      .card-body {
+        padding: 10px;
+      }
+
+
+}
+
+@media only screen and (min-width: 581px) and (max-width: 819px){
+    #product-main, #review-main, #review-card{
+        padding: 16px;
+    }
+
+    .description-section{
+        padding: 20px;
+    }
+
+    .product-suggestion{
+        padding: 16px;
+    }
+
+    .review-card-container {
+        gap: 30px;
+    }
+
+    .card-main {
+        width: 47% !important;
+    }
+
+    .review-card-1 {
+        position: relative;
+        top: -155px;
+    }
+
+    .review-card-3 {
+        position: relative;
+        top: -383px;
+    }
+
+    .review-card-5 {
+        position: relative;
+        top: -379px;
+    }
+
+    .review-card-2{}
+
+    .cart {
+        margin-left: 19px;
+    }
+
+    .quant-shop {
+        margin-left: 10px;
+    }
+
+    .engrave-text-list-item {
+        margin-bottom: 25px;
+    }
+
+    .engrave-text-list {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .engrave-text {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 819px) and (max-width: 1048px){
+    #product-main, #review-main {
+        padding: 20px;
+    }
+
+    .description-section{
+        padding: 20px;
+    }
+
+    .product-suggestion{
+        padding:20px;
+    }
+
+    .engrave-text-list-item {
+        margin-bottom: 25px;
+    }
+
+    .engrave-text-list {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .engrave-text {
+        margin-bottom: 0px;
+    }
+
+    .quant-shop {
+        margin: 0px 30px !important; 
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity {
+        text-align: center;
+    }
+
+    .cart-buy, .cart-add {
+        font-size: 0.9rem;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    .product-quantity {
+        display:flex;
+        margin: 10px 0;
+        height: 10%;
+    }
+    
+    .cart button {
+        margin-right: 10px;
+    }
+    
+    .cart {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+
+    }
+
+    .card-main {
+        width: 29% !important;
+        margin: 0 8px;
+    }
+
+    .review-card-2 {
+        position: relative;
+        top: -156px;
+    }
+
+    .review-card-3 {
+        position: relative;
+        top: 0px;
+    }
+
+    .review-card-5 {
+        position: relative;
+        top: -150px;
+    }
+
+    .review-card-6 {
+        position: relative;
+        top: -80px;
+    }
+
+    .review-card-4 {
+        position: relative;
+        top: -274px;
+    }
+    
+    .review-card-container {
+        gap: 30px 0;
+        max-width: 900px;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1088px){
+    #review-card {
+        max-width: 1100px !important;
+        margin: 0 auto;
+    }
+
+    #product-main, #review-main{
+        padding: 20px;
+    }
+
+    .description-section{
+        padding: 20px;
+    }
+
+    .product-suggestion{
+        padding:20px;
+    }
+
+    .review-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px !important;
+    }
+        .review-card-6 {
+            position: relative;
+            top: -70px;
+        }
+
+        .engrave-text-list-item {
+            margin-bottom: 25px;
+        }
+    
+        .engrave-text-list {
+            display: inline-block;
+            margin: 0;
+        }
+    
+        .engrave-text {
+            margin-bottom: 0px;
+        }
+    
+        .quant-shop {
+            margin: 0px 30px !important; 
+            display: flex;
+            align-items: center;
+        }
+    
+        .quantity {
+            text-align: center;
+        }
+    
+        .cart-buy, .cart-add {
+            font-size: 0.9rem;
+            padding: 10px;
+            margin: 5px;
+        }
+        
+        .product-quantity {
+            display:flex;
+            margin: 10px 0;
+            height: 10%;
+        }
+        
+        .cart button {
+            margin-right: 10px;
+        }
+        
+        .cart {
+            display: flex;
+            justify-content: center;
+            margin-left: 0;
+    
+        }
+
+}
+
+@media only screen and (max-width: 1250px){
+    #review-card {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+
+
+    #product-main, #review-main, #review-card {
+        padding: 20px;
+    }
+
+    .description-section{
+        padding: 20px;
+    }
+
+    .product-suggestion{
+        padding:20px;
+    }
+
+    .engrave-text-list-item {
+        margin-bottom: 25px;
+    }
+
+    .engrave-text-list {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .engrave-text {
+        margin-bottom: 0px;
+    }
+
+    .quant-shop {
+        margin: 0px 30px !important; 
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity {
+        text-align: center;
+    }
+
+    .cart-buy, .cart-add {
+        font-size: 0.9rem;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    .product-quantity {
+        display:flex;
+        margin: 10px 0;
+        height: 10%;
+    }
+    
+    .cart button {
+        margin-right: 10px;
+    }
+    
+    .cart {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+
+    }
+
+
+}
+
+@media only screen  and (max-width: 1500px){
+    #review-card {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .review-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px;
+        /* justify-content: space-between; */
+    }
+
+    .card-main {
+        border: 1px solid #a3a3a38e;
+        border-radius: 10px;
+        height: fit-content;
+        width: 23%;
+        overflow: hidden;
+    }
+}
+
+/* Media Query */

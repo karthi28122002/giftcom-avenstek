@@ -1,0 +1,170 @@
+body {
+    background-color: var(--black);
+    color: var(--blue);
+}
+
+.blog-header {
+    padding: 50px 0; /* Space above and below the header */
+    background-color: var(--blue); /* Orange background */
+    color: var(--white); /* Text color black */
+}
+
+.blog-title {
+    font-size: 3rem; /* Title font size */
+    color: var(--orange);
+    margin: 0; /* Remove default margin */
+}
+
+.blog-description {
+    font-size: 1.25rem; /* Description font size */
+    margin-top: 10px; /* Space above the description */
+}
+
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.filter-bar {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+/* Blog post image styling */
+.blog-post img {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+/* Search input field */
+.search-input {
+    width: 100%;
+    max-width: 300px;
+    background-color: var(--white);
+    color: var(--blue);
+    border-color: var(--light-grey);
+}
+
+.search-input::placeholder {
+    color: var(--blue);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--orange);
+    box-shadow: 0 0 5px var(--orange);
+}
+
+/* Filter buttons */
+.filter-buttons .btn {
+    color: var(--blue);
+    border-color: var(--light-grey);
+    background-color: var(--white);
+}
+
+.filter-buttons .btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+/* Blog card design */
+.card {
+    background-color: var(--white);
+    color: var(--blue);
+    border-color: var(--light-grey);
+}
+
+/* Card title and text color */
+.card-title {
+    color: var(--blue);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.card-text {
+    font-size: 13px;
+    color: var(--light-color);
+    /* height: 90px; */
+}
+
+.card-body {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* Read more button */
+.btn-primary {
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+}
+
+.btn-primary:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.pagination .page-link {
+    color: var(--blue); 
+    border: 1px solid var(--light-grey);
+  }
+  
+  .pagination .page-link:hover {
+    background-color: var(--orange);
+    color: white; 
+    border-color: var(--orange); 
+  }
+  
+  .pagination .disabled .page-link {
+    color: #6c757d;
+  }
+  
+  .pagination .active .page-link {
+    background-color: var(--orange); 
+    border-color: var(--orange); 
+    color: white; 
+  }
+  
+  .pagination .active .page-link:focus {
+    outline: none;
+    border-color: var(--orange) !important;
+    box-shadow: 0 0 5px var(--orange) !important;
+}
+
+.pagination .page-link:focus {
+    border-color: var(--orange) !important;
+    box-shadow: 0 0 5px var(--orange) !important;
+}
+
+
+
+/* Medium devices (landscape tablets, 768px - 991px) */
+@media only screen and (max-width: 991px) {
+    .filter-buttons button {
+        font-size: 13px !important;
+    }
+}
+
+/* Small devices (portrait tablets, 600px - 767px) */
+@media only screen and (max-width: 767px) {
+    .filter-bar {
+        margin-bottom: 20px;
+        margin-top: 120px;
+        row-gap: 20px;
+    }
+
+    .filter-buttons-parent {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-input-parent {
+        display: flex;
+        justify-content: center;
+    }
+
+}

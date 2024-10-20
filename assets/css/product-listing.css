@@ -1,0 +1,306 @@
+.other-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    width: fit-content;
+}
+
+.you-searched {
+    font-size: 18px;
+}
+
+ul#productTab {
+    display: flex;
+    column-gap: 10px;
+}
+
+.tab-btn {
+    background: #fff;
+    outline: 0;
+    display: flex;
+    font-size: 17.5px;
+    padding: 6px 11px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+}
+
+.sort {
+    background: transparent;
+    border: 1px solid lightgrey;
+    padding: 7px 20px;
+    font-family: Poppins-Medium !important;
+    outline: 0;
+}
+
+.sort:focus {
+    border: 1px solid var(--orange);
+}
+
+.options-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.product-listing-scroll::-webkit-scrollbar-track , .offcanvas-body::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(29, 29, 29, 0.3);
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+.product-listing-scroll::-webkit-scrollbar , .offcanvas-body::-webkit-scrollbar {
+	width: 5px;
+	background-color: #ffffff;
+}
+
+.product-listing-scroll::-webkit-scrollbar-thumb,.offcanvas-body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #cfcfcf;
+}
+
+.filter-panel {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+.filter-panel h4 {
+    margin-bottom: 20px;
+}
+
+.filter-panel label {
+    font-weight: bold;
+}
+
+.filter-panel select,
+.filter-panel input[type="range"] {
+    width: 100%;
+}
+
+.form-range {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+    .filter-section {
+        padding: 20px;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+      }
+
+      .filter-title {
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Poppins-Medium !important;
+        color: var(--blue);
+        margin-bottom: 10px;
+        letter-spacing: 0.5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        transition: .3s ease;
+      }
+      .filter-title i {
+        font-size: 16px;
+        transition: transform 0.3s ease;
+        color: var(--blue) !important;
+      }
+  
+      /* Collapsible filter content */
+      .filter-content {
+        display: none;
+        transition: all 0.3s ease-in-out;
+      }
+      .filter-section.active .filter-content {
+        display: block;
+      }
+      .filter-section.active .filter-title i {
+        transform: rotate(45deg);
+      }
+
+      .filter-section.active .filter-title {
+        color: var(--orange);
+        transition: .3s ease;
+      }
+  
+      /* Form Checkboxes */
+      .form-check-input {
+        width: 18px;
+        height: 18px;
+        background-color: #f0f0f0;
+        border-radius: 3px;
+        transition: border-color 0.3s ease;
+      }
+      .form-check-input:checked {
+        background-color: #009688;
+        border-color: #009688;
+      }
+  
+      /* Price Range Slider */
+      .form-range {
+        margin: 10px 0;
+        background-color: #eee;
+        border-radius: 8px;
+      }
+      .form-range::-webkit-slider-thumb {
+        background-color: #009688;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+      }
+  
+/* Customizing the track (bar) */
+#offcanvas-price-slider .noUi-target, 
+#offcanvas-price-slider  .noUi-connects,
+#main-price-slider .noUi-target, 
+#main-price-slider  .noUi-connects {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    height: 10px;
+}
+
+/* Customizing the filled part of the range */
+#offcanvas-price-slider .noUi-connect,#main-price-slider .noUi-connect{
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+/* Customizing the handle (slider knob) */
+#offcanvas-price-slider .noUi-handle , #main-price-slider .noUi-handle {
+    height: 20px;
+    width: 20px;
+    background-color: var(--orange); /* Orange knob */
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Tooltip styling */
+.noUi-tooltip {
+    background-color: #ff5722;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 5px 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Change the cursor when hovering over the handle */
+#offcanvas-price-slider .noUi-handle:hover, #main-price-slider .noUi-handle:hover {
+    cursor: pointer;
+}
+
+/* Optional: Add transition for smooth movement of handles */
+#offcanvas-price-slider .noUi-handle , #main-price-slider .noUi-handle {
+    transition: all 0.2s ease;
+}
+
+/* Styling the range output */
+#offcanvas-price-range-output, #main-price-range-output {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Poppins-Medium !important;
+    color: var(--blue);
+}
+
+.noUi-target {
+    background: #FAFAFA;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    margin-top: 60px;
+    box-shadow: inset 0 1px 1px #F0F0F0, 0 3px 6px -5px #BBB;
+}
+
+.noUi-horizontal {
+    height: auto !important;
+}
+
+.noUi-handle:after, .noUi-handle:before {
+    display: none !important;
+}
+
+.noUi-tooltip {
+    background: #545454 !important;
+    color: white !important;
+    font-size: 10px !important;
+}
+
+.filter-parent {
+    background: white;
+    padding: 10px 10px;
+}
+
+.filter-content label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.form-check-input:checked {
+    background-color: var(--orange);
+    border-color: var(--orange);
+}
+
+div#offcanvasFilter {
+    padding-top: 86px;
+}
+
+.form-check-input:focus {
+    border-color: var(--orange) !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(253, 245, 13, 0) !important;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.70rem;
+}
+
+.form-check-input {
+    border-radius: 0px !important;
+}
+
+.filter-head {
+    margin: 20px;
+    color: var(--blue);
+}
+
+
+.filter-btn {
+    background: var(--blue);
+    border-color: var(--blue);
+    border-radius: 3px;
+    margin: 20px 0px;
+}
+
+.filter-btn:hover {
+    background: var(--orange);
+    border-color: var(--orange);
+}
+
+.filter-btn:active {
+    background: var(--orange) !important;
+    border-color: var(--orange) !important;
+}
+
+h5#offcanvasFilterLabel {
+    margin: 10px 20px;
+}
+
+.btn-close {
+    margin-right: 15px !important;
+}
+
