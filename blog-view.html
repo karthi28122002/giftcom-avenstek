@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvensEcom</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/blog-view.css">
+    <link rel="stylesheet" href="./assets/css/chat-assistant.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/nav-footer.css">
+    <link rel="stylesheet" href="./assets/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./assets/aos/css/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid center-div">
+            <div class="header">
+                <a href="./index.html" class="logo">
+                    <img src="./assets/media/images/logo.jpg" alt="logo">
+                </a>
+                <nav class="navbar">
+                    <a href="./index.html">home</a>  
+                    <a href="#features">features</a>  
+                    <a href="./product-listing.html">products</a>  
+                    <a href="javascript:void(0)" id="categories-link">categories</a>  
+                    <a href="#review">review</a>  
+                    <a href="./blog-list.html">blogs</a>  
+
+                    <div class="drop-down" id="categories-dropdown">
+                        <div class="category categoery-row-1">
+                            <span class="head">Most Popular</span>
+                           <ul>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Tab</a></li>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Smart TV</a></li>
+                            <li><a href="#">Home Appliances</a></li>
+                            <li><a href="#">Furniture</a></li>
+                           </ul>
+                        </div>
+
+                        <div class="category categoery-row-2">
+                            <span class="head">Electronics</span>
+                            <ul> 
+                             <li><a href="#">Mobile</a></li>
+                             <li><a href="#">Tab</a></li>
+                             <li><a href="#">Laptop</a></li>
+                             <li><a href="#">Smart TV</a></li>
+                            </ul>
+                         </div>
+                         
+                         <div class="category categoery-row-3">
+                            <span class="head">Furniture</span>
+                            <ul> 
+                             <li><a href="#">Table</a></li>
+                             <li><a href="#">Sofa</a></li>
+                             <li><a href="#">Dinning</a></li>
+                             <li><a href="#">Chair</a></li>
+                             <li><a href="#">Office Chair</a></li>
+                            </ul>
+                         </div>
+
+                         <div class="category categoery-row-4">
+                            <span class="head">Most Popular</span>
+                           <ul>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Tab</a></li>
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Smart TV</a></li>
+                            <li><a href="#">Home Appliances</a></li>
+                            <li><a href="#">Furniture</a></li>
+                           </ul>
+                        </div>
+
+                        <div class="category categoery-row-5">
+                            <span class="head">Electronics</span>
+                            <ul> 
+                             <li><a href="#">Mobile</a></li>
+                             <li><a href="#">Tab</a></li>
+                             <li><a href="#">Laptop</a></li>
+                             <li><a href="#">Smart TV</a></li>
+                            </ul>
+                         </div>
+                         
+                         <div class="category categoery-row-6">
+                            <span class="head">Furniture</span>
+                            <ul> 
+                             <li><a href="#">Table</a></li>
+                             <li><a href="#">Sofa</a></li>
+                             <li><a href="#">Dinning</a></li>
+                             <li><a href="#">Chair</a></li>
+                             <li><a href="#">Office Chair</a></li>
+                            </ul>
+                         </div>
+                    </div>
+                </nav>
+                
+
+                <div class="icons">
+                    <div class="icon-inside bi bi-list" id="menu-btn"></div>
+                    <div class="icon-inside bi bi-search" id="search-btn"></div>
+                    <div class="icon-inside bi bi-bag" id="cart-btn"></div>
+                    <div class="icon-inside bi bi-person" id="login-btn"></div>
+                </div>
+
+                <form action="" class="search-form">
+                    <input type="search" id="search-box" placeholder="Search here...">
+                    <button><i class="bi bi-search"></i></button>
+
+                    <div class="product-search-list">
+                        <span class="no-product">No Products</span>
+
+                        <div class="product-list-boxes">
+                            <div class="product-box">
+                                <a href="#">
+                                    <div class="product-img-search">
+                                        <img src="./assets/media/images/product/product-1.jpeg" alt="Product Image">
+                                    </div>
+
+                                    <div class="product-info-search">
+                                        <p class="product-name-search">Iphone 15 pro max Black 8+256gb</p>
+                                        <div class="product-price">
+                                            <span class="original-price">₹1,82,990</span>
+                                            <span class="strike-price">₹1,88,999</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="product-box">
+                                <a href="#">
+                                    <div class="product-img-search">
+                                        <img src="./assets/media/images/product/product-2.jpeg" alt="Product Image">
+                                    </div>
+
+                                    <div class="product-info-search">
+                                        <p class="product-name-search">Samsung Galaxy S24 8+256gb</p>
+                                        <div class="product-price">
+                                            <span class="original-price">₹1,82,990</span>
+                                            <span class="strike-price">₹1,88,999</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="product-box">
+                                <a href="#">
+                                    <div class="product-img-search">
+                                        <img src="./assets/media/images/product/product-16.jpeg" alt="Product Image">
+                                    </div>
+
+                                    <div class="product-info-search">
+                                        <p class="product-name-search">Apple AirPods Max Headphones</p>
+                                        <div class="product-price">
+                                            <span class="original-price">₹40,000</span>
+                                            <span class="strike-price">₹50,000</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="product-box">
+                                <a href="#">
+                                    <div class="product-img-search">
+                                        <img src="./assets/media/images/product/product-11.jpeg" alt="Product Image">
+                                    </div>
+
+                                    <div class="product-info-search">
+                                        <p class="product-name-search">LG 75 inch 4K QLED TV</p>
+                                        <div class="product-price">
+                                            <span class="original-price">₹5,99,000</span>
+                                            <span class="strike-price">₹8,99,000</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+
+                <div class="shopping-cart">
+                    <div class="product-list">
+                        <div class="box">
+                            <div class="product-img">
+                                <img src="./assets/media/images/cart-img/watermelon.jpg" alt="product-1">
+                            </div>
+    
+                            <button>
+                                <i class="bi bi-trash3"></i>
+                            </button>
+                            
+                            <div class="content">
+                                <strong>Watermelon</strong>
+                                <span class="price">₹80/-</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="product-img">
+                                <img src="./assets/media/images/cart-img/onion.jpg" alt="product-1">
+                            </div>
+    
+                            <button>
+                                <i class="bi bi-trash3"></i>
+                            </button>
+    
+                            <div class="content">
+                                <strong>Onion</strong>
+                                <span class="price">₹50/-</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="product-img">
+                                <img src="./assets/media/images/cart-img/raw-chicken.png" alt="product-1">
+                            </div>
+    
+                            <button>
+                                <i class="bi bi-trash3"></i>
+                            </button>
+    
+                            <div class="content">
+                                <strong>Chicken</strong>
+                                <span class="price">₹200/-</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="product-img">
+                                <img src="./assets/media/images/cart-img/watermelon.jpg" alt="product-1">
+                            </div>
+    
+                            <button>
+                                <i class="bi bi-trash3"></i>
+                            </button>
+                            
+                            <div class="content">
+                                <strong>Watermelon</strong>
+                                <span class="price">₹80/-</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="product-img">
+                                <img src="./assets/media/images/cart-img/onion.jpg" alt="product-1">
+                            </div>
+    
+                            <button>
+                                <i class="bi bi-trash3"></i>
+                            </button>
+    
+                            <div class="content">
+                                <strong>Onion</strong>
+                                <span class="price">₹50/-</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="product-img">
+                                <img src="./assets/media/images/cart-img/raw-chicken.png" alt="product-1">
+                            </div>
+    
+                            <button>
+                                <i class="bi bi-trash3"></i>
+                            </button>
+    
+                            <div class="content">
+                                <strong>Chicken</strong>
+                                <span class="price">₹200/-</span>
+                                <span class="quantity">Qty : 1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total"><p>Total : ₹330/-</p></div>
+                    <a href="./checkout.html" class="btn">Checkout</a>
+                </div>
+
+                <form action="" class="login-form">
+                    <h3>Login Now</h3>
+                    <input type="email" placeholder="Your Email" class="box">
+                    <input type="password" placeholder="Your Password" class="box">
+                    <p>Forget your password <a href="#">click here</a></p>
+                    <p>Don't have an account <a href="./register.html">create now</a></p>
+                    <button type="submit" class="btn" id="loginButton">Login now</button>
+                </form>
+            </div>      
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="blog-header text-center">
+                <h1 class="blog-title" data-aos="zoom-in-up" data-aos-duration="800">Blog Details</h1>
+                <div class="blog-breadcrumb">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item home"><a href="javascript:void(0);">Home</a></li>
+                            <li class="breadcrumb-item library"><a href="javascript:void(0);">Library</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="blog-view-sec">
+            <div class="container">
+                <div class="blog-view">
+                    <div class="blog-title">
+                        <h2>Google Project IDX Beta: Transforming Development</h2>
+
+                        <div class="info-sec">
+                            <div class="author common-info">
+                                <i class="fa-solid fa-user" aria-hidden="true"></i>
+                                <span>Gopi</span>
+                            </div>
+
+                            <div class="date common-info">
+                                <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                                <span>3 months ago</span>
+                            </div>
+
+                            <div class="category common-info">
+                                <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                                <span>Development</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-img">
+                        <img src="https://avenstek.com/admin/uploads/images/blogs/1719229446.jpg" alt="">
+                    </div>
+
+                    <div class="blog-content">
+                        <div class="blog-inside-content">
+                            <h5 data-aos="fade-up" data-aos-duration="800">Introduction</h5>
+                            <p data-aos="fade-up" data-aos-duration="800"><a href="javascript:void(0)"
+                                    target="_blank">Google</a><span>&nbsp;has
+                                    once again pushed the boundaries of innovation with the beta release
+                                    of&nbsp;</span><a rel="noreferrer" target="_blank" href="javascript:void(0)">Project
+                                    IDX</a><span>.
+                                    This groundbreaking initiative promises to revolutionize the development landscape
+                                    by streamlining processes, enhancing collaboration, and offering unparalleled tools
+                                    for developers worldwide. In this blog post, we'll delve into the features of
+                                    Project IDX, explore its benefits, and understand why it's set to become a
+                                    game-changer in the tech industry.</span></p>
+                            <p><span><br></span>
+                            </p>
+                            <h5 data-aos="fade-up" data-aos-duration="800">What is Project IDX?</h5>
+                            <div data-aos="fade-up" data-aos-duration="800">
+                            <p>Project IDX is a state-of-the-art development platform introduced by Google, aimed at
+                                transforming the way developers create, collaborate, and deploy applications. It
+                                integrates advanced AI-driven tools, cloud-based services, and seamless collaboration
+                                features to provide a comprehensive development environment. The platform supports
+                                multiple programming languages and frameworks, making it versatile for various
+                                development needs.</p>
+                            <p>Key features of Project IDX include:</p>
+                            <p><span style="font-weight: 600">AI-Powered
+                                    Code Assistance:</span><span>&nbsp;Leverage
+                                    Google's AI to enhance coding efficiency with smart suggestions, auto-completions,
+                                    and error detection.</span></p>
+                            <p><span style="font-weight: 600">Cloud
+                                    Integration:</span><span>&nbsp;Direct
+                                    integration with Google Cloud services allows for easy deployment and scalability of
+                                    applications.</span></p>
+                            <p><span style="font-weight: 600">Collaboration
+                                    Tools:</span><span>&nbsp;Real-time
+                                    collaboration features enable teams to work together effortlessly, regardless of
+                                    their geographical locations.</span></p>
+                            <p><span><br></span>
+                            </p>
+                            <h5 data-aos="fade-up" data-aos-duration="800">Benefits of using Project IDX</h5>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="800">
+                            <p><span>The
+                                    introduction of Project IDX offers numerous advantages that can significantly boost
+                                    productivity and innovation within development teams. Here are some key
+                                    benefits:</span></p>
+                            <p><span style="font-weight: 600">Enhanced
+                                    Efficiency:</span><span>&nbsp;With
+                                    AI-powered tools, developers can write and debug code faster, reducing development
+                                    time and improving overall productivity.</span></p>
+                            <p><span style="font-weight: 600">Seamless
+                                    Collaboration:</span><span>&nbsp;The
+                                    real-time collaboration features ensure that team members can work together
+                                    smoothly, share feedback instantly, and maintain consistent code quality.</span></p>
+                            <p><span style="font-weight: 600">Scalability:</span><span>&nbsp;The
+                                    integration with Google Cloud services means that applications can be scaled
+                                    effortlessly to meet growing demands without worrying about infrastructure
+                                    management.</span></p>
+                            <p><span style="font-weight: 600">Versatility:</span><span>&nbsp;Supporting
+                                    a wide range of programming languages and frameworks, Project IDX caters to diverse
+                                    development needs, making it a one-stop solution for developers.</span></p>
+                            <p><br></p>
+                            </div>
+                            <h5 data-aos="fade-up" data-aos-duration="800">How to get Project IDX?</h5>
+                            <div data-aos="fade-up" data-aos-duration="800">
+                            <p>Getting started with Project IDX is straightforward. Here’s a quick guide to help you
+                                embark on your journey with this innovative platform:</p>
+                            <p><span style="font-weight: 600">Sign
+                                    Up for Beta Access:</span><span>&nbsp;Visit
+                                    the official Project IDX website and sign up for beta access. This will give you
+                                    early access to explore and test the platform's features.</span></p>
+                            <p><span style="font-weight: 600">Set
+                                    Up Your Environment:</span><span>&nbsp;Once
+                                    you have access, set up your development environment by selecting your preferred
+                                    programming languages and frameworks. The intuitive interface makes it easy to
+                                    configure your workspace.</span></p>
+                            <p><span style="font-weight: 600">Explore
+                                    Features:</span><span>&nbsp;Take
+                                    some time to explore the AI-powered tools, cloud integration, and collaboration
+                                    features. Familiarize yourself with the platform to maximize its potential.</span>
+                            </p>
+                            <p><span style="font-weight: 600">Start
+                                    Developing:</span><span>&nbsp;Begin
+                                    your development projects and experience the enhanced efficiency and seamless
+                                    collaboration offered by Project IDX. Utilize the cloud services for easy deployment
+                                    and scaling of your applications.</span></p>
+                            <p><br></p>
+                            </div>
+                            <h5 data-aos="fade-up" data-aos-duration="800">Conclusion</h5>
+                            <p data-aos="fade-up" data-aos-duration="800">The beta release of Project IDX marks a significant milestone in the development
+                                industry, offering a plethora of features designed to enhance efficiency, collaboration,
+                                and scalability. As Google continues to refine and expand this platform, developers can
+                                look forward to a more streamlined and innovative development experience. Don’t miss out
+                                on this opportunity-sign up for the beta release and be part of the future of
+                                development with Project IDX.</p>
+                        </div>
+
+                        <div class="blog-tag" data-aos="fade-up" data-aos-duration="800">
+                            <a href="javascript:void(0)" class="blog-tag-item">Development</a>
+                            <a href="javascript:void(0)" class="blog-tag-item">Coding</a>
+                            <a href="javascript:void(0)" class="blog-tag-item">Tech</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="blog-box-sec">
+            <div class="container">
+                <div class="title">Most Recent Blogs</div>
+                <div class="row blog-row" id="blogContent">
+                    <div class="col-lg-4 col-md-6 col-sm-12 blog-col">
+                        <a
+                            href="https://avenstek.com/blog/blog-view?slug=google-project-idx-beta-transforming-development">
+                            <div class="blog-box">
+                                <div class="img-box">
+                                    <img src="https://avenstek.com/admin/uploads/images/thumbnail/1719229910.jpg"
+                                        alt="">
+                                </div>
+
+                                <div class="content">
+                                    <h4>Google Project IDX Beta: Transforming Development</h4>
+                                    <p>Google has once again pushed the boundaries of innovation with the beta release
+                                        of Project IDX.</p>
+                                    <div class="info-sec">
+                                        <div class="author common-info">
+                                            <i class="fa-solid fa-user" aria-hidden="true"></i>
+                                            <span>Gopi</span>
+                                        </div>
+
+                                        <div class="date common-info">
+                                            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                                            <span>3 months ago</span>
+                                        </div>
+
+                                        <div class="category common-info">
+                                            <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                                            <span>Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 blog-col">
+                        <a
+                            href="https://avenstek.com/blog/blog-view?slug=google-project-idx-beta-transforming-development">
+                            <div class="blog-box">
+                                <div class="img-box">
+                                    <img src="https://avenstek.com/admin/uploads/images/thumbnail/1719229910.jpg"
+                                        alt="">
+                                </div>
+
+                                <div class="content">
+                                    <h4>Google Project IDX Beta: Transforming Development</h4>
+                                    <p>Google has once again pushed the boundaries of innovation with the beta release
+                                        of Project IDX.</p>
+                                    <div class="info-sec">
+                                        <div class="author common-info">
+                                            <i class="fa-solid fa-user" aria-hidden="true"></i>
+                                            <span>Gopi</span>
+                                        </div>
+
+                                        <div class="date common-info">
+                                            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                                            <span>3 months ago</span>
+                                        </div>
+
+                                        <div class="category common-info">
+                                            <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                                            <span>Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 blog-col">
+                        <a
+                            href="https://avenstek.com/blog/blog-view?slug=google-project-idx-beta-transforming-development">
+                            <div class="blog-box">
+                                <div class="img-box">
+                                    <img src="https://avenstek.com/admin/uploads/images/thumbnail/1719229910.jpg"
+                                        alt="">
+                                </div>
+
+                                <div class="content">
+                                    <h4>Google Project IDX Beta: Transforming Development</h4>
+                                    <p>Google has once again pushed the boundaries of innovation with the beta release
+                                        of Project IDX.</p>
+                                    <div class="info-sec">
+                                        <div class="author common-info">
+                                            <i class="fa-solid fa-user" aria-hidden="true"></i>
+                                            <span>Gopi</span>
+                                        </div>
+
+                                        <div class="date common-info">
+                                            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+                                            <span>3 months ago</span>
+                                        </div>
+
+                                        <div class="category common-info">
+                                            <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+                                            <span>Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Info</h4>
+                    <ul class="links">
+                        <li><a href="./about-us.html">About Us</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Collection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul class="links">
+                        <li><a href="#">Popular Gifts</a></li>
+                        <li><a href="#">Latest Gifts</a></li>
+                        <li><a href="#">Most Selled</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Coming Soon</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="links">
+                        <li><a href="#">Customer Agreement</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul class="links">
+                        <li><a href="#">Popular Gifts</a></li>
+                        <li><a href="#">Latest Gifts</a></li>
+                        <li><a href="#">Most Selled</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>
+                        Subscribe to our newsletter for a weekly dose
+                        of news, updates, helpful tips, and
+                        exclusive offers.
+                    </p>
+                    <form action="#">
+                        <input type="text" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="footer-watermark">
+                <span>© Copyright 2024. Designed and Developed by Avenstek.</span>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
+
+<script src="./assets/bootstrap/js/jquery.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/09e23c078c.js" crossorigin="anonymous"></script>
+<script src="./assets/slick-carousel/slick/slick.min.js"></script>
+<script src="./assets/js/script.js"></script>
+<script src="./assets/tippyjs/popper.min.js"></script>
+<script src="./assets/tippyjs/tippy-bundle.umd.js"></script>
+<script src="./assets/aos/js/aos.js"></script>
+<script>AOS.init();</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+    const categoriesLink = document.getElementById('categories-link');
+    const dropdown = document.getElementById('categories-dropdown');
+
+    categoriesLink.addEventListener('click', (event) => {
+        event.preventDefault();
+        
+        dropdown.classList.toggle('visible');
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!event.target.closest('#categories-link') && !event.target.closest('#categories-dropdown')) {
+            dropdown.classList.remove('visible');
+        }
+    });
+   });
+   
+       // Get the login button by its ID
+const loginButton = document.getElementById('loginButton');
+
+// Add an event listener for the click event
+loginButton.addEventListener('click', function(event) {
+event.preventDefault(); // Prevent default form submission behavior
+window.location.href = 'dashboard.html'; // Redirect to dashboard.html
+});
+</script>
