@@ -923,7 +923,7 @@ height: 450px;
         padding: 16px;
     }
     .review-card-6 {
-    margin-top: 70px;
+    margin-top: 70px !important;
 }
 
     .description-section{
