@@ -922,6 +922,9 @@ height: 450px;
     #product-main, #review-main, #review-card{
         padding: 16px;
     }
+    .review-card-6 {
+    margin-top: 70px;
+}
 
     .description-section{
         padding: 20px;
